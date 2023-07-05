@@ -1,0 +1,59 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+  }
+  
+  .botaoApagar {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .botaoApagar:hover {
+    background-color: #c82333;
+  }
+  
+  .py-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .table th,
+    .table td {
+      font-size: 14px;
+    }
+  }
+  

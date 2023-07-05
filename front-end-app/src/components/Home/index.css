@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: auto; /* ajuste a largura conforme necessário */
+    height: auto; /* ajuste a altura conforme necessário */
+  }

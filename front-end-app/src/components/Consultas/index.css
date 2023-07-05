@@ -1,0 +1,41 @@
+.consultas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    margin-top: 10px;
+    width: 500px;
+    height: 400px; 
+    border-radius: 5px;
+}
+
+.botao{
+    margin-top: 15px;
+    width: 500px;
+    padding: 8px;
+    border: none;
+    text-decoration: none;
+    background-color: #009eee;
+    font-size: 30px;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.botao:hover{
+    background-color: white;
+    border-color: #009eee;
+    color: #009eee;
+    cursor: pointer;
+}

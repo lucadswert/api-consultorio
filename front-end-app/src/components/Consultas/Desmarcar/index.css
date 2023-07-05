@@ -1,0 +1,57 @@
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    color: #009eee;
+}
+
+.pergunta{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #2e2e2e;
+}
+
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  select:hover,
+  textarea:hover {
+    border-color: #009eee;
+  }
+
+  input[type="submit"] {
+    width: 420px;
+    background-color: #009eee;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #009eee;
+  }

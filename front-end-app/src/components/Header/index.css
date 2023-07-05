@@ -1,0 +1,41 @@
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Helvetica;
+    width: 100%;
+    height: 70px;
+    background-color: #009eee;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.logoBranca{
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.botaoHeader{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.botaoHeader:hover{
+    padding: 5px;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: #FFF;
+    font-size: 30px;
+    color: #009eee;
+    cursor: pointer;
+}
